@@ -8,8 +8,6 @@ import android.os.BatteryManager;
 class ChargeStatus {
 
     private Context context;
-    private IntentFilter intentFilter;
-
     private static ChargeStatus instance;
 
     public ChargeStatus() {
